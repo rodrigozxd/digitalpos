@@ -1,0 +1,55 @@
+[26-Jul-2021 21:06:26 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/velcarpc/public_html/digitalpos/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[26-Jul-2021 21:06:39 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/velcarpc/public_html/digitalpos/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[26-Jul-2021 21:07:10 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/velcarpc/public_html/digitalpos/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[26-Jul-2021 21:07:14 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/velcarpc/public_html/digitalpos/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[26-Jul-2021 21:09:16 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/velcarpc/public_html/digitalpos/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[26-Jul-2021 21:09:16 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/velcarpc/public_html/digitalpos/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[26-Jul-2021 21:11:56 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/velcarpc/public_html/digitalpos/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[17-Aug-2021 09:31:03 America/Lima] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'velcarpc_ntec', '#Ym;&S)hW!-n', Array)
+#1 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'velcarpc_ntec', '#Ym;&S)hW!-n', Array)
+#2 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MyS in /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[17-Aug-2021 09:31:03 America/Lima] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'velcarpc_ntec', '#Ym;&S)hW!-n', Array)
+#1 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'velcarpc_ntec', '#Ym;&S)hW!-n', Array)
+#2 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MyS in /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[17-Aug-2021 09:31:03 America/Lima] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'velcarpc_ntec', '#Ym;&S)hW!-n', Array)
+#1 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'velcarpc_ntec', '#Ym;&S)hW!-n', Array)
+#2 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MyS in /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[17-Aug-2021 09:31:03 America/Lima] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'velcarpc_ntec', '#Ym;&S)hW!-n', Array)
+#1 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'velcarpc_ntec', '#Ym;&S)hW!-n', Array)
+#2 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MyS in /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[11-Jun-2022 11:44:17 America/Lima] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'velcarpc_ntec', '#Ym;&S)hW!-n', Array)
+#1 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'velcarpc_ntec', '#Ym;&S)hW!-n', Array)
+#2 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MyS in /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[11-Jun-2022 11:44:17 America/Lima] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'velcarpc_ntec', '#Ym;&S)hW!-n', Array)
+#1 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'velcarpc_ntec', '#Ym;&S)hW!-n', Array)
+#2 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MyS in /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[11-Jun-2022 11:44:19 America/Lima] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'velcarpc_ntec', '#Ym;&S)hW!-n', Array)
+#1 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'velcarpc_ntec', '#Ym;&S)hW!-n', Array)
+#2 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MyS in /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[11-Jun-2022 11:44:27 America/Lima] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'velcarpc_ntec', '#Ym;&S)hW!-n', Array)
+#1 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'velcarpc_ntec', '#Ym;&S)hW!-n', Array)
+#2 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MyS in /home/velcarpc/public_html/digitalpos/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
